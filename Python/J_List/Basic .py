@@ -1,3 +1,17 @@
+s="Hello"
+print(s)
+s=list(s)
+print(s)
+sorted_str=sorted(s)
+print(sorted_str)
+
+new_str="".join(sorted_str)
+print(new_str)
+
+# given str -->Indexing
+# list(str)-->list
+
+print("-------------------------------")
 x=[10,20,30]
 #access 20
 print(x)
