@@ -23,3 +23,35 @@ print(r.choice(x))
 print(r.choices(x,k=2))
 r.shuffle(x)
 print(x)
+
+print("-------------------------------------------------------")
+
+import datetime
+
+# current time --->now()
+
+d=datetime.datetime.now()
+print(d)
+print(d.time())
+print(d.day)
+print(d.month)
+print(d.year)
+
+today_date=datetime.date.today()
+print(today_date)
+
+after=today_date+datetime.timedelta(days=5)
+print(after)
+
+dob=datetime.date(2007,8,6)
+cd=datetime.date.today()
+print(cd-dob)
+
+print(cd.year-dob.year)
+
+print("-----------------------------------------------------")
+
+
+    
+
+
