@@ -5,9 +5,9 @@ Name=(input("Enter your Name: "))
 City=(input("Enter your city: "))
 College=(input("Enter your college name: "))
 
-print("Hello",Name)
-print(City)
-print(College)
+print("Hello ",Name)
+print("city :",City)
+print("college : ", College)
 
 
 
